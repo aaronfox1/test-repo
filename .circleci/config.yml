@@ -2,7 +2,7 @@ version: 2.1
 
 jobs:
   build:
-    machine:
+    docker:
       image: cuda-linux-12:default
       resource_class: small
     steps:
