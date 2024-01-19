@@ -4,7 +4,7 @@ jobs:
   build:
     docker:
        - image: linux-cuda-11:default
-    resource_class: small
+    resource_class: gpu.nvidia.small.multi
     steps:
       - run: echo 'Working'
 
